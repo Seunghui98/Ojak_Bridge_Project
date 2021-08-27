@@ -1,0 +1,48 @@
+.containerC {
+    width:1000px;
+	height:1000px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: repeat(8, 70px);
+    font-size: 20px;
+  	grid-column-gap: 10px;
+  	grid-row-gap: 30px;
+}
+
+
+.cell {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding: 0;
+ 
+}
+.cell-1 {
+  background: deepskyblue;
+  font-size: 20px;
+  
+}
+.cell-2 {
+  background: orangered;
+}
+.cell-3 {
+  background: royalblue;
+}
+.cell-4 {
+  background: gold;
+}
+.cell-5 {
+  background: blueviolet;
+}
+.cell-6 {
+  background: limegreen;
+}
+.cell-7 {
+  background: coral;
+}
+.cell-8 {
+  background: lightseagreen;
+}
+.cell-9 {
+  background: maroon;
+}
